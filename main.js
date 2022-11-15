@@ -173,6 +173,10 @@ class EvilCircle extends Shape {
           score--;
           scoreCounter.textContent = "Ball count: " + score;
         }
+
+        if(score === 0){
+          alert("win")
+        }
       }
     }
   }
